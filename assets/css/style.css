@@ -1,11 +1,12 @@
-.container {
+.wrapper {
     margin:0 auto;
     width:960px;
 }
 
-section {
-    margin:0 auto;
-    width:960px;
+body {
+    background-image: url("/assets/images/floor-tile.png");
+    background-repeat: repeat-x;
+    /* background-color:tan; */
 }
 
 h1 {
@@ -14,21 +15,16 @@ h1 {
 }
 
 h2 {
-    color:orange;
+    color:#4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-p {
-    color:black;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 header {
-    background-color:lightblue;
-    border-bottom:5px;
+    background-color:#ffffff;
+    border-bottom:3px;
     border-bottom-style:solid;
-    border-bottom-color:darkgrey;
-    height:100px;
+    border-bottom-color:#cccccc;
+    height:90px;
     margin-top:-5px;
 }
 
@@ -40,7 +36,7 @@ header {
 .title {
     float:left;
     margin-top:5px;
-    background-color:green;
+    background-color:#4aaaa5;
     padding-right:15px;
     padding-left:15px;
 }
@@ -48,7 +44,6 @@ header {
 .navigation {
     float:right;
     margin-top:5px;
-    margin-right:10px;
 }
 
 ul {
@@ -77,22 +72,55 @@ li a:hover {
     border-right-color:darkgrey;
 }
 
+.main-content-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:10px;
+    background-color:#ffffff;
+    width:960px;
+    border-style: solid;
+    border-color:#dddddd;
+    overflow: auto;
+}
+
+.main-content {
+    padding-right:15px;
+    padding-left:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
 #bio-image {
     float:left;
-    width:30%;
+    width:20%;
+    margin-right:15px;
+    margin-bottom:15px;
 }
 
 .aboutme {
-    float:right;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    line-height:24px;
 }
 
-footer {
-    background-color:plum;
-    text-align:center;
-    padding-top:50px;
-    padding-bottom:10px;
-    padding-right:600px;
-    padding-left:600px;
+.footer {
+    background-color:#666666;
+    padding-top:15px;
+    padding-bottom:3px;
     position: fixed;
     bottom: 0;
+    border-top-style:solid;
+    border-top-width: 8px;
+    border-color:#4aaaa5;
+    margin:0 auto;
+
+}
+
+.footer-content {
+    text-align:center;
+    color:lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    margin:0 auto;
 }
