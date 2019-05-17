@@ -24,20 +24,31 @@ p {
 }
 
 header {
-    width:960px;
-    margin:0 auto;
-    position:relative;
     background-color:lightblue;
     border-bottom:5px;
     border-bottom-style:solid;
     border-bottom-color:darkgrey;
+    height:100px;
+    margin-top:-5px;
 }
 
-nav {
-    position:absolute;
-    margin:30px;
-    top:50px;
-    right:75px;
+.header {
+    width:960px;
+    margin:0 auto;
+}
+
+.title {
+    float:left;
+    margin-top:5px;
+    background-color:green;
+    padding-right:15px;
+    padding-left:15px;
+}
+
+.navigation {
+    float:right;
+    margin-top:5px;
+    margin-right:10px;
 }
 
 ul {
@@ -66,21 +77,22 @@ li a:hover {
     border-right-color:darkgrey;
 }
 
-.bio-image {
+#bio-image {
     float:left;
-    width:60%;
+    width:30%;
 }
 
 .aboutme {
-    float:left;
+    float:right;
 }
 
 footer {
-    margin-top:200px;
     background-color:plum;
     text-align:center;
     padding-top:50px;
     padding-bottom:10px;
     padding-right:600px;
     padding-left:600px;
+    position: fixed;
+    bottom: 0;
 }

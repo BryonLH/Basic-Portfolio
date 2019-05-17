@@ -1,0 +1,11 @@
+a:hover {
+    color:red;
+}
+
+button {
+    margin-top:40px;
+
+}
+button:hover {
+    transform: scale(1.5);
+}
