@@ -4,13 +4,13 @@
 }
 
 body {
-    /* background-image: url("./assets/images/floor-tile.png");
+    /* background-image: url("./");
     background-repeat: repeat-x; */
     background-color:tan;
 }
 
 h1 {
-    color:pink;
+    color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -44,6 +44,7 @@ header {
 .navigation {
     float:right;
     margin-top:5px;
+    color:grey;
 }
 
 ul {
@@ -148,6 +149,28 @@ li a:hover {
     font-size:20px;
 }
 
+.portfolio-project {
+    float:left;
+    width:40%;
+    margin-bottom:30px;
+    position:relative;
+    margin-right:20px;
+}
+
+.portfolio-image {
+    width:100%;
+}
+
+.portfolio-text {
+    position:absolute;
+    bottom: 10px;
+    width:100%;
+    background-color:#4aaaa5;
+    color:white;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .footer {
     background-color:#666666;
     position: fixed;
@@ -156,6 +179,7 @@ li a:hover {
     border-top-width: 8px;
     border-color:#4aaaa5;
     width:100%;
+    margin-top:30px;
 }
 
 .footer-content {
