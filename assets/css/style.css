@@ -4,9 +4,9 @@
 }
 
 body {
-    /* background-image: url("./");
-    background-repeat: repeat-x; */
-    background-color:tan;
+    background-image: url("../images/floor-tile.png");
+    background-repeat: repeat;
+    /* background-color:tan; */
 }
 
 h1 {
@@ -122,14 +122,6 @@ li a:hover {
 }
 
 .form-field-entry { 
-    width:98%;
-    padding:5px 10px;
-    border: .5px solid #ccc;
-    border-radius: 2px;
-    color: #777777;
-}
-
-.form-field-entry-large {
     width:98%;
     padding:5px 10px;
     border: .5px solid #ccc;
