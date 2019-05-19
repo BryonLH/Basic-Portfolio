@@ -162,6 +162,9 @@ li a:hover {
     color:white;
     text-align:center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding-top:20px;
+    padding-bottom:20px;
 }
 
 .portfolio-text:hover {
