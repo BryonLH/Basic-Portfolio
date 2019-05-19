@@ -1,3 +1,8 @@
+html {
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+  }
+
 body {
     background-image: url("../images/floor-tile.png");
     background-repeat: repeat;
@@ -67,7 +72,13 @@ li a:hover {
     color:white;
 }
 
-.navlink {
+#navlink1  {
+    border-right-style:solid;
+    border-right-width:1px;
+    border-right-color:rgb(192, 192, 192);
+}
+
+#navlink2  {
     border-right-style:solid;
     border-right-width:1px;
     border-right-color:rgb(192, 192, 192);
@@ -144,7 +155,7 @@ li a:hover {
 
 .portfolio-project {
     float:left;
-    width:40%;
+    width:35%;
     margin-bottom:30px;
     position:relative;
     margin-right:20px;
@@ -156,7 +167,7 @@ li a:hover {
 
 .portfolio-text {
     position:absolute;
-    bottom: 10px;
+    bottom: 15px;
     width:100%;
     background-color:#4aaaa5;
     color:white;
