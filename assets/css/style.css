@@ -1,8 +1,3 @@
-.wrapper {
-    margin:0 auto;
-    width:960px;
-}
-
 body {
     background-image: url("../images/floor-tile.png");
     background-repeat: repeat;
@@ -49,6 +44,7 @@ header {
 
 ul {
     list-style: none;
+    margin-top:30px;
 }
 
 li {
@@ -58,25 +54,30 @@ li {
 li a {
     display:block;
     text-align: center;
-    padding:20px;
+    padding:5px;
+    margin-right:10px;
+    margin-left:10px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
+    color:#666666;
 }
 
 li a:hover {
-    background-color:pink;
+    background-color:#FF6F24;
+    color:white;
 }
 
-#navlink1 #navlink2 {
-    border-style:solid;
-    border-right:2px;
-    border-right-color:darkgrey;
+.navlink {
+    border-right-style:solid;
+    border-right-width:1px;
+    border-right-color:rgb(192, 192, 192);
 }
 
-.main-content-wrapper {
+.container {
     margin-right: auto;
     margin-left: auto;
     margin-top:20px;
+    margin-bottom:40px;
     background-color:#ffffff;
     width:960px;
     border-style: solid;
@@ -95,7 +96,7 @@ li a:hover {
 .main-content-below-header {
     border-top-style: solid;
     border-top-width:2px;
-    border-top-color:#666666;
+    border-top-color:#c9c9c9;
     padding-top:20px;
 }
 
@@ -163,6 +164,10 @@ li a:hover {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.portfolio-text:hover {
+    background-color:#FF6F24;
+}
+
 .footer {
     background-color:#666666;
     position: fixed;
@@ -171,7 +176,7 @@ li a:hover {
     border-top-width: 8px;
     border-color:#4aaaa5;
     width:100%;
-    margin-top:30px;
+    margin-top:100px;
 }
 
 .footer-content {
