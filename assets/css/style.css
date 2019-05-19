@@ -6,7 +6,7 @@ html {
 body {
     background-image: url("../images/floor-tile.png");
     background-repeat: repeat;
-    /* background-color:tan; */
+    margin:0;
 }
 
 h1 {
